@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\CSFun 2\CSFun.Updater\bin\Debug\CSFun.Updater.exe.config
+C:\Users\chris\source\repos\CSFun 2\CSFun.Updater\bin\Debug\CSFun.Updater.exe
+C:\Users\chris\source\repos\CSFun 2\CSFun.Updater\bin\Debug\CSFun.Updater.pdb
+C:\Users\chris\source\repos\CSFun 2\CSFun.Updater\obj\Debug\CSFun.Updater.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\CSFun.Updater\obj\Debug\CSFun.Updater.exe
+C:\Users\chris\source\repos\CSFun 2\CSFun.Updater\obj\Debug\CSFun.Updater.pdb

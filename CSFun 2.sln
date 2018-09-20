@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSFun2", "CSFun 2\CSFun2.csproj", "{ABF4C935-D74F-4D51-BA9D-8534B03B5A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSFun2.Plugin", "CSFun2.Plugin\CSFun2.Plugin.csproj", "{B8485053-4A26-4C75-A47A-7420D07EBC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TunnelScreen", "TunnelScreen\TunnelScreen.csproj", "{0934EBDF-25F2-48BC-BF31-3C73706B736C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSFun2.Updater", "CSFun.Updater\CSFun2.Updater.csproj", "{8E82BA8C-EC11-4EC7-BC36-36CEF575BF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF4C935-D74F-4D51-BA9D-8534B03B5A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF4C935-D74F-4D51-BA9D-8534B03B5A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF4C935-D74F-4D51-BA9D-8534B03B5A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF4C935-D74F-4D51-BA9D-8534B03B5A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0934EBDF-25F2-48BC-BF31-3C73706B736C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0934EBDF-25F2-48BC-BF31-3C73706B736C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0934EBDF-25F2-48BC-BF31-3C73706B736C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0934EBDF-25F2-48BC-BF31-3C73706B736C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E82BA8C-EC11-4EC7-BC36-36CEF575BF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E82BA8C-EC11-4EC7-BC36-36CEF575BF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E82BA8C-EC11-4EC7-BC36-36CEF575BF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E82BA8C-EC11-4EC7-BC36-36CEF575BF36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCF51F81-5810-427F-B745-13E6CEEEDD6B}
+	EndGlobalSection
+EndGlobal

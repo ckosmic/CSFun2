@@ -43,8 +43,6 @@
   <ItemGroup>
     <Compile Include="ISub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubSettings.cs" />
-    <Compile Include="TestPlugin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

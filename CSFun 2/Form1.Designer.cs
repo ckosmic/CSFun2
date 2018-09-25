@@ -108,6 +108,7 @@
 			// 
 			// button2
 			// 
+			this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.button2.Location = new System.Drawing.Point(36, 389);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(252, 23);
@@ -118,14 +119,17 @@
 			// 
 			// toolStrip1
 			// 
-			this.toolStrip1.BackColor = System.Drawing.SystemColors.Control;
+			this.toolStrip1.BackColor = System.Drawing.SystemColors.ControlLightLight;
 			this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+			this.toolStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
 			this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripDropDownButton1,
             this.toolStripDropDownButton2,
             this.toolStripButton1});
 			this.toolStrip1.Location = new System.Drawing.Point(0, 0);
 			this.toolStrip1.Name = "toolStrip1";
+			this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+			this.toolStrip1.ShowItemToolTips = false;
 			this.toolStrip1.Size = new System.Drawing.Size(800, 25);
 			this.toolStrip1.TabIndex = 8;
 			this.toolStrip1.Text = "toolStrip1";
@@ -165,6 +169,7 @@
 			// 
 			// toolStripMenuItem1
 			// 
+			this.toolStripMenuItem1.Image = global::CSFun2.Properties.Resources.Add_16x;
 			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
 			this.toolStripMenuItem1.Size = new System.Drawing.Size(195, 22);
 			this.toolStripMenuItem1.Text = "Add New Subprocess...";
@@ -197,6 +202,7 @@
 			// 
 			// pathsToolStripMenuItem
 			// 
+			this.pathsToolStripMenuItem.Image = global::CSFun2.Properties.Resources.Folder_16x;
 			this.pathsToolStripMenuItem.Name = "pathsToolStripMenuItem";
 			this.pathsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
 			this.pathsToolStripMenuItem.Text = "Paths...";
@@ -225,6 +231,7 @@
 			// 
 			// documentationToolStripMenuItem
 			// 
+			this.documentationToolStripMenuItem.Image = global::CSFun2.Properties.Resources.Text_16x;
 			this.documentationToolStripMenuItem.Name = "documentationToolStripMenuItem";
 			this.documentationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.documentationToolStripMenuItem.Text = "Documentation";
@@ -237,6 +244,7 @@
 			// 
 			// toolStripMenuItem2
 			// 
+			this.toolStripMenuItem2.Image = global::CSFun2.Properties.Resources.Question_16x;
 			this.toolStripMenuItem2.Name = "toolStripMenuItem2";
 			this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
 			this.toolStripMenuItem2.Text = "About...";
@@ -257,6 +265,9 @@
 			this.Controls.Add(this.checkedListBox1);
 			this.Controls.Add(this.button1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.KeyPreview = true;
+			this.MaximizeBox = false;
 			this.Name = "Form1";
 			this.Text = "CSFun 2";
 			this.toolStrip1.ResumeLayout(false);

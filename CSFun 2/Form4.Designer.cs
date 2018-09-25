@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
 			this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
 			this.SuspendLayout();
 			// 
@@ -30,7 +31,7 @@
 			// 
 			this.propertyGrid1.Location = new System.Drawing.Point(12, 12);
 			this.propertyGrid1.Name = "propertyGrid1";
-			this.propertyGrid1.Size = new System.Drawing.Size(419, 299);
+			this.propertyGrid1.Size = new System.Drawing.Size(572, 299);
 			this.propertyGrid1.TabIndex = 0;
 			// 
 			// Form4
@@ -39,6 +40,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(596, 323);
 			this.Controls.Add(this.propertyGrid1);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form4";
 			this.Text = "Subprocess Settings";
 			this.Load += new System.EventHandler(this.Form4_Load);

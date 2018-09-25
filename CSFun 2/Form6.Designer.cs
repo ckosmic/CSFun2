@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
 			this.label1 = new System.Windows.Forms.Label();
 			this.linkLabel1 = new System.Windows.Forms.LinkLabel();
 			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -69,6 +70,7 @@
 			this.Controls.Add(this.richTextBox1);
 			this.Controls.Add(this.linkLabel1);
 			this.Controls.Add(this.label1);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form6";
 			this.Text = "About CSFun 2";
 			this.ResumeLayout(false);

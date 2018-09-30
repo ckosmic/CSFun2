@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using CSFun2.Plugin;
 
@@ -39,10 +40,12 @@ namespace TunnelScreen
 		public string name => "Tunnel Screen";
 		public string description => "Copies the screen and shrinks the result using StretchBlt.";
 		public string author => "Christian Kosman";
+		public string version => "1.0.0";
 		public bool enabled { get; set; } = false;
 		public Type settings { get => typeof(TunnelSettings); }
 
-		public Task SubMethod(dynamic settings) {
+		//public Task SubMethod(dynamic settings) {
+		public void SubMethod(dynamic settings) {
 			int screenWidth = System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Width;
 			int screenHeight = System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Height;
 			IntPtr desktop = GetDesktopWindow();
@@ -50,7 +53,8 @@ namespace TunnelScreen
 			IntPtr compat = CreateCompatibleDC(desktopDc);
 			while (true) {
 				StretchBlt(desktopDc, settings.captureDistance, settings.captureDistance, screenWidth - settings.captureDistance*2, screenHeight - settings.captureDistance*2, desktopDc, 0, 0, screenWidth, screenHeight, TernaryRasterOperations.SRCCOPY);
-				Task.Delay(settings.updateFrequency).Wait();
+				//Task.Delay(settings.updateFrequency).Wait();
+				Thread.Sleep(settings.updateFrequency);
 			}
 		}
 	}

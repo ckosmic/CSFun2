@@ -14,6 +14,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.CheckedListBox;
 using CSFun2.Plugin;
 using System.Net;
+using System.Threading;
 
 namespace CSFun2 {
 	public partial class Form1 : Form {
@@ -63,6 +64,8 @@ namespace CSFun2 {
 
 			Console.WriteLine("Initialized");
 
+			
+
 			Task.Run(AsyncFunction);
 
 			CheckForUpdates();
@@ -105,7 +108,7 @@ namespace CSFun2 {
 				desc = "No description provided.";
 			}
 			richTextBox1.Text = desc;
-			label2.Text = plugins[e.Index].name;
+			label2.Text = plugins[e.Index].name + " - v" + plugins[e.Index].version;
 			string author = plugins[e.Index].author;
 			if (author == null || author == "") {
 				author = "Anonymous";
@@ -126,7 +129,11 @@ namespace CSFun2 {
 							if (settings[i].GetType().FullName == plugin.settings.FullName)
 								settingIndex = i;
 						}
-						Task.Run(() => plugin.SubMethod(settings[settingIndex]));
+						//Task.Run(() => plugin.SubMethod(settings[settingIndex]));
+
+						Thread thread = new Thread(new ParameterizedThreadStart(plugin.SubMethod));
+						thread.IsBackground = true;
+						thread.Start(settings[settingIndex]);
 
 						Console.WriteLine("Started sub: '" + plugin.name + "'.");
 					}

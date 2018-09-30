@@ -9,8 +9,10 @@ namespace CSFun2.Plugin {
 		string name { get; }
 		string description { get; }
 		string author { get; }
+		string version { get; }
 		bool enabled { get; set; }
 		Type settings { get; }
-		Task SubMethod(dynamic settings);
+		//Task SubMethod(dynamic settings);
+		void SubMethod(dynamic settings);
 	}
 }

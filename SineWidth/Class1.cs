@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using CSFun2.Plugin;
 
@@ -19,10 +20,12 @@ namespace SineWidth
 		public string name => "Sine Width";
 		public string description => "Makes the active window's width pulse in a sine wave function.";
 		public string author => "Christian Kosman";
+		public string version => "1.0.0";
 		public bool enabled { get; set; } = false;
 		public Type settings { get => typeof(SineSettings); }
 
-		public Task SubMethod(dynamic settings) {
+		//public Task SubMethod(dynamic settings) {
+		public void SubMethod(dynamic settings) {
 			int screenWidth = System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Width;
 			int screenHeight = System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Height;
 
@@ -42,7 +45,8 @@ namespace SineWidth
 				}
 				increment += 0.1f;
 				MoveWindow(foregroundWindow, rect.Left - (int)(Math.Sin(increment * settings.frequency) * settings.amplitude) / 2, rect.Top, rect.Width + (int)(Math.Sin(increment * settings.frequency) * settings.amplitude), rect.Height, true);
-				Task.Delay(settings.updateFrequency).Wait();
+				//Task.Delay(settings.updateFrequency).Wait();
+				Thread.Sleep(settings.updateFrequency);
 			}
 		}
 

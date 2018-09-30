@@ -13,10 +13,12 @@ namespace ProgramSpam
 		public string name => "Program Spam";
 		public string description => "Opens every program in the specified directory and every directory under that.";
 		public string author => "Christian Kosman";
+		public string version => "1.0.0";
 		public bool enabled { get; set; } = false;
 		public Type settings { get => typeof(ProgramSettings); }
 
-		public Task SubMethod(dynamic settings) {
+		//public Task SubMethod(dynamic settings) {
+		public void SubMethod(dynamic settings) {
 			string[] allFiles = Directory.GetFiles(settings.baseDirectory, "*.*", SearchOption.AllDirectories);
 			foreach (string file in allFiles) {
 				try {
@@ -28,7 +30,7 @@ namespace ProgramSpam
 					Console.WriteLine("Couldn't open file: " + file);
 				}
 			}
-			return null;
+			//return null;
 		}
 	}
 }

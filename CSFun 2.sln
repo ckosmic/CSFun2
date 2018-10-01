@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorMessages", "ErrorMessa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramSpam", "ProgramSpam\ProgramSpam.csproj", "{52A0D2CC-9B37-4940-BD15-4CE33A149EC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earthquake", "Earthquake\Earthquake.csproj", "{929F4100-292B-4BE8-AE90-28BB55286B2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{52A0D2CC-9B37-4940-BD15-4CE33A149EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A0D2CC-9B37-4940-BD15-4CE33A149EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A0D2CC-9B37-4940-BD15-4CE33A149EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929F4100-292B-4BE8-AE90-28BB55286B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929F4100-292B-4BE8-AE90-28BB55286B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929F4100-292B-4BE8-AE90-28BB55286B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929F4100-292B-4BE8-AE90-28BB55286B2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

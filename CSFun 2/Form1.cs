@@ -36,7 +36,7 @@ namespace CSFun2 {
 
 		public List<object> settings = new List<object>();
 
-		public Form1() {
+		public Form1(string[] args) {
 			InitializeComponent();
 			//AllocConsole();
 			button3.Hide();
@@ -46,7 +46,11 @@ namespace CSFun2 {
 			int SW_SHOW = 0;
 
 			IntPtr handle = GetConsoleWindow();
-			//ShowWindow(handle, SW_HIDE);
+			if(args.Length == 0 || !args.Contains("-c"))
+				ShowWindow(handle, SW_HIDE);
+
+			if (!Directory.Exists("plugins"))
+				Directory.CreateDirectory("plugins");
 
 			PluginLoader loader = new PluginLoader();
 			loader.LoadPlugins();
@@ -72,6 +76,9 @@ namespace CSFun2 {
 		}
 
 		public void CheckForUpdates() {
+			if (File.Exists("Updater.exe"))
+				File.Delete("Updater.exe");
+
 			var webRequest = WebRequest.Create("https://ckosmic.github.io/CSFun2/version.txt");
 			using (var response = webRequest.GetResponse())
 			using (var content = response.GetResponseStream())
@@ -190,6 +197,10 @@ namespace CSFun2 {
 		private void toolStripMenuItem2_Click(object sender, EventArgs e) {
 			Form6 aboutForm = new Form6();
 			aboutForm.Show();
+		}
+
+		private void toolStripMenuItem3_Click(object sender, EventArgs e) {
+			CheckForUpdates();
 		}
 	}
 }

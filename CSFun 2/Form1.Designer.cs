@@ -42,6 +42,7 @@
 			this.hotkeysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripButton1 = new System.Windows.Forms.ToolStripDropDownButton();
 			this.documentationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
 			this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStrip1.SuspendLayout();
@@ -221,6 +222,7 @@
 			this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
 			this.toolStripButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.documentationToolStripMenuItem,
+            this.toolStripMenuItem3,
             this.toolStripSeparator2,
             this.toolStripMenuItem2});
 			this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
@@ -236,6 +238,14 @@
 			this.documentationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.documentationToolStripMenuItem.Text = "Documentation";
 			this.documentationToolStripMenuItem.Click += new System.EventHandler(this.documentationToolStripMenuItem_Click);
+			// 
+			// toolStripMenuItem3
+			// 
+			this.toolStripMenuItem3.Image = global::CSFun2.Properties.Resources.Upload_16x;
+			this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+			this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+			this.toolStripMenuItem3.Text = "Check For Updates";
+			this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
 			// 
 			// toolStripSeparator2
 			// 
@@ -298,6 +308,7 @@
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
 		public System.Windows.Forms.RichTextBox richTextBox1;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
 	}
 }
 

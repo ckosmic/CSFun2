@@ -1,0 +1,8 @@
+C:\Users\chris\source\repos\CSFun 2\Earthquake\bin\Debug\Earthquake.dll
+C:\Users\chris\source\repos\CSFun 2\Earthquake\bin\Debug\Earthquake.pdb
+C:\Users\chris\source\repos\CSFun 2\Earthquake\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\Earthquake\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\Earthquake\obj\Debug\Earthquake.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\Earthquake\obj\Debug\Earthquake.csproj.CopyComplete
+C:\Users\chris\source\repos\CSFun 2\Earthquake\obj\Debug\Earthquake.dll
+C:\Users\chris\source\repos\CSFun 2\Earthquake\obj\Debug\Earthquake.pdb

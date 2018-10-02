@@ -1,0 +1,9 @@
+.vs/*
+*.exe
+*.dll
+CSFun 2/*
+CSFun.Updater/*
+Plugins/*
+README.md
+.gitignore
+.gitignore.plugin

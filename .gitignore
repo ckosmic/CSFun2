@@ -1,3 +1,5 @@
 .vs/*
 *.exe
 *.dll
+*.lock
+Plugin/*

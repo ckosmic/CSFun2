@@ -1,0 +1,14 @@
+C:\Users\chris\source\repos\CSFun 2\CSFun2.Plugin\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\CSFun2.Plugin\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\CSFun 2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\CSFun 2\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\CSFun 2\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\New folder\CSFun2\CSFun2.Plugin\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\New folder\CSFun2\CSFun2.Plugin\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\New folder\CSFun2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\New folder\CSFun2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\New folder\CSFun2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\New folder\CSFun2\CSFun2.Plugin\obj\Debug\CSFun2.Plugin.pdb

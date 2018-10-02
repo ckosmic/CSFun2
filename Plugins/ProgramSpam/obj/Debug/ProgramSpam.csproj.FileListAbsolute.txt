@@ -1,0 +1,9 @@
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\bin\Debug\ProgramSpam.dll
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\bin\Debug\ProgramSpam.pdb
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\obj\Debug\ProgramSpam.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\obj\Debug\ProgramSpam.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\obj\Debug\ProgramSpam.csproj.CopyComplete
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\obj\Debug\ProgramSpam.dll
+C:\Users\chris\source\repos\CSFun 2\ProgramSpam\obj\Debug\ProgramSpam.pdb

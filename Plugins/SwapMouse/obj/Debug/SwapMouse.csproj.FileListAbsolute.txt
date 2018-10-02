@@ -1,0 +1,9 @@
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\bin\Debug\SwapMouse.dll
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\bin\Debug\SwapMouse.pdb
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\obj\Debug\SwapMouse.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\obj\Debug\SwapMouse.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\obj\Debug\SwapMouse.csproj.CopyComplete
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\obj\Debug\SwapMouse.dll
+C:\Users\chris\source\repos\CSFun 2\SwapMouse\obj\Debug\SwapMouse.pdb

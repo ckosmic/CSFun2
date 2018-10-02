@@ -7,3 +7,12 @@ C:\Users\chris\source\repos\CSFun 2\TunnelScreen\obj\Debug\TunnelScreen.csproj.C
 C:\Users\chris\source\repos\CSFun 2\TunnelScreen\obj\Debug\TunnelScreen.csproj.CopyComplete
 C:\Users\chris\source\repos\CSFun 2\TunnelScreen\obj\Debug\TunnelScreen.dll
 C:\Users\chris\source\repos\CSFun 2\TunnelScreen\obj\Debug\TunnelScreen.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\bin\Debug\TunnelScreen.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\bin\Debug\TunnelScreen.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\obj\Debug\TunnelScreen.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\obj\Debug\TunnelScreen.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\obj\Debug\TunnelScreen.csproj.CopyComplete
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\obj\Debug\TunnelScreen.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\TunnelScreen\obj\Debug\TunnelScreen.pdb

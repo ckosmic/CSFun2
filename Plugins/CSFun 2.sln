@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSFun2.Plugin", "CSFun2.Plugin\CSFun2.Plugin.csproj", "{B8485053-4A26-4C75-A47A-7420D07EBC26}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHydra", "AutoHydra\AutoHydra.csproj", "{E7B62221-9553-4888-A707-07D3ECEF5AC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earthquake", "Earthquake\Earthquake.csproj", "{929F4100-292B-4BE8-AE90-28BB55286B2F}"
@@ -23,16 +21,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TunnelScreen", "TunnelScree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapMouse", "SwapMouse\SwapMouse.csproj", "{091D2D98-D13D-4669-8C24-9139A8F731A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{977CE2B6-2EE4-4E91-87E9-81654376A3B1}"
+	ProjectSection(SolutionItems) = preProject
+		..\CSFun 2\bin\Debug\CSFun2.Plugin.dll = ..\CSFun 2\bin\Debug\CSFun2.Plugin.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8485053-4A26-4C75-A47A-7420D07EBC26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7B62221-9553-4888-A707-07D3ECEF5AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7B62221-9553-4888-A707-07D3ECEF5AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B62221-9553-4888-A707-07D3ECEF5AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -7,3 +7,12 @@ C:\Users\chris\source\repos\CSFun 2\RandomPixels\obj\Debug\RandomPixels.csproj.C
 C:\Users\chris\source\repos\CSFun 2\RandomPixels\obj\Debug\RandomPixels.csproj.CopyComplete
 C:\Users\chris\source\repos\CSFun 2\RandomPixels\obj\Debug\RandomPixels.dll
 C:\Users\chris\source\repos\CSFun 2\RandomPixels\obj\Debug\RandomPixels.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\bin\Debug\RandomPixels.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\bin\Debug\RandomPixels.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\obj\Debug\RandomPixels.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\obj\Debug\RandomPixels.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\obj\Debug\RandomPixels.csproj.CopyComplete
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\obj\Debug\RandomPixels.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\RandomPixels\obj\Debug\RandomPixels.pdb

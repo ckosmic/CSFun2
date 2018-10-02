@@ -7,3 +7,12 @@ C:\Users\chris\source\repos\CSFun 2\Screen Glitches\obj\Debug\Screen Glitches.cs
 C:\Users\chris\source\repos\CSFun 2\Screen Glitches\obj\Debug\Screen Glitches.csproj.CopyComplete
 C:\Users\chris\source\repos\CSFun 2\Screen Glitches\obj\Debug\Screen Glitches.dll
 C:\Users\chris\source\repos\CSFun 2\Screen Glitches\obj\Debug\Screen Glitches.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\bin\Debug\Screen Glitches.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\bin\Debug\Screen Glitches.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\obj\Debug\Screen Glitches.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\obj\Debug\Screen Glitches.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\obj\Debug\Screen Glitches.csproj.CopyComplete
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\obj\Debug\Screen Glitches.dll
+C:\Users\chris\source\repos\CSFun 2\Plugins\Screen Glitches\obj\Debug\Screen Glitches.pdb

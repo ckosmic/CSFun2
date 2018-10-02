@@ -1,0 +1,9 @@
+C:\Users\chris\source\repos\CSFun 2\SineWidth\bin\Debug\SineWidth.dll
+C:\Users\chris\source\repos\CSFun 2\SineWidth\bin\Debug\SineWidth.pdb
+C:\Users\chris\source\repos\CSFun 2\SineWidth\bin\Debug\CSFun2.Plugin.dll
+C:\Users\chris\source\repos\CSFun 2\SineWidth\bin\Debug\CSFun2.Plugin.pdb
+C:\Users\chris\source\repos\CSFun 2\SineWidth\obj\Debug\SineWidth.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\CSFun 2\SineWidth\obj\Debug\SineWidth.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\CSFun 2\SineWidth\obj\Debug\SineWidth.csproj.CopyComplete
+C:\Users\chris\source\repos\CSFun 2\SineWidth\obj\Debug\SineWidth.dll
+C:\Users\chris\source\repos\CSFun 2\SineWidth\obj\Debug\SineWidth.pdb

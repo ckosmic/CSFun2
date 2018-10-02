@@ -1,9 +1,0 @@
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\bin\Debug\ErrorMessages.dll
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\bin\Debug\ErrorMessages.pdb
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\bin\Debug\CSFun2.Plugin.dll
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\bin\Debug\CSFun2.Plugin.pdb
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\obj\Debug\ErrorMessages.csprojAssemblyReference.cache
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\obj\Debug\ErrorMessages.csproj.CoreCompileInputs.cache
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\obj\Debug\ErrorMessages.csproj.CopyComplete
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\obj\Debug\ErrorMessages.dll
-C:\Users\chris\source\repos\CSFun 2\ErrorMessages\obj\Debug\ErrorMessages.pdb
